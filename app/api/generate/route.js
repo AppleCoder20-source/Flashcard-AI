@@ -19,7 +19,7 @@ Return the following JSON format
             { role: 'user', content: date },
         ],
         model: 'gpt-4o',
-        response_format: 'json', // Corrected this line
+        response_format: 'json', 
     });
 
     const flashcards = JSON.parse(completion.choices[0].message.content);
